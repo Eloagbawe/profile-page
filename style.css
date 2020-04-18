@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding:0;
+    color: #123456;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden; 
+}
+body{
+    background-color: #F6F5F1;
+}
+.nav{
+    height: 2rem;
+    margin-left: 59.5rem;
+}
+.nav li{
+    display: inline-block;
+    padding: 1rem 1rem;
+    list-style: none;
+}
+.bio-container{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5rem 3rem 0 3rem;
+    width:100%;
+
+}
+.biodata{
+    width:65%;
+
+}
+#welcomeText{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+    
+    
+}
+.biodata hr{
+    margin-top:-1.2rem;
+    background-color: #123456;
+    height: 0.3rem;
+    width: 50%;
+    border-style: none;
+    margin-left: 2rem;
+}
+.biodata-text{
+    padding-top: 1.5em;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+.biodata-text span{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+/* #picture{
+    padding-left: 20rem; 
+} */
+#picture img{
+    height: 20rem;
+    width: 15rem;
+    margin-top: 4rem;
+    border-radius:10px;
+}
+.summary{
+    padding: 1rem 3rem;
+}
+.summary hr{
+    width: 100%;
+    margin-bottom:  1rem;
+    margin-top: 0.5rem;
+    /* background-color: #D3D3D3; */
+    border: none;
+    background-color: #ccc;
+    color: #ccc;
+    height: 1px;
+}
+
+.summary p{
+    padding-bottom: 1rem;
+}
+.summary-headings{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    font-weight: 900;
+}
+#contactMe{
+    padding: 1rem 3rem;
+    height: auto;
+
+}
+#contactMeText{
+    padding: 1rem 0;
+}
+
+#contactMe-heading{
+    font-size: 1.4rem; 
+    font-weight: 900;
+}
+
+.socialMediaLinks{
+    padding: 1rem 0;
+}
+
+.socialMediaLinks i{
+    padding-right: 1rem;
+}
+
+ #contactForm input{
+     width: 20rem; 
+    height: 1.5rem;
+    margin: 1rem 0;
+    border: 0.01rem solid #CED4DA;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+
+}
+
+#message{
+    width: 19rem; 
+    height: 3rem;
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 0.01rem solid #CED4DA;
+    font-size: 0.9rem;
+} 
+footer{
+    margin-top: 0;
+    margin-left: 37rem;
+    padding:1rem 3rem;
+
+}
+
+ #sendMessage{
+    height: 2rem;
+    width: 21rem;
+    margin:1rem 0 2rem 0;
+    border: 0.01rem solid #CED4DA;
+    padding: 1rem 0 2rem 0;
+    font-weight: 900;
+    font-size: 0.8rem;
+} 
+#sendMessage > a{
+    text-decoration: none;
+}
+
+.contactMe > p > a{
+    text-decoration: none;
+    font-weight: 900;
+}

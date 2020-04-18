@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto|Satisfy&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Profile Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav" id="nav">
+                <ul>
+                    <li><a href="#biodata">Biodata</a></li>
+                    <li><a href="#summary">About Me</a></li>
+                    <li><a href="#contactMe">Contact Form</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="bio-container">
+            <div class="biodata" id="biodata">
+                <p id="welcomeText">Welcome to my profile page!</p><hr/><br/>
+                <p class="biodata-text"><span>Name </span> Elo Agbawe</p>
+                <p class="biodata-text"><span> State of Origin </span> Delta State</p>
+                <p class="biodata-text"><span>Date of Birth </span> 14th October 1995</p>
+                <p class="biodata-text"><span>Address </span> Al-Gamji Garden Estate, phase VI, Wuye, Abuja</p>
+                <p class="biodata-text"><span>Occupation </span> Optometrist, Aspiring software developer</p>
+                <p class="biodata-text"><span>Slack ID </span> Eloagbawe</p>
+            
+            </div>
+    
+            <div id="picture">
+                <img src="https://res.cloudinary.com/eloagbawe/image/upload/v1574439171/dikfaq49fyb8tnmjatdh.jpg" alt="Elo Agbawe's picture">
+            </div>
+            
+        </div>
+    </section>
+
+    <article class="summary" id="summary">
+        <div id="aboutMe">
+            <hr/>
+            <p class="summary-headings">About Me</p>
+            <p>I am an optimistic and goal-oriented Doctor of Optometry (O.D) seeking new 
+                opportunities to help develop and gain further skills. I am an effective
+                team member who has the ability to complete administrative tasks with little
+                or no supervision and ensure that the highest standards of the office organization 
+                are maintained at all times.
+            </p>
+            <hr/>
+        </div>
+
+        <div id="skills">
+            <p class="summary-headings">Skills</p>
+            <p>Microsoft Office, Html, Css, Bootstrap, Javascript, Nodejs.</p>
+            <hr/>
+        </div>
+
+        <div id="interests">
+            <p class="summary-headings">Interests</p>
+            <p>Health, Eye Care, Software Development, Frontend and Backend Web development.</p>
+            <hr/>
+        </div>
+
+        <div id="hobbies">
+            <p class="summary-headings">Hobbies</p>
+            <p>Reading, meeting new people, learning new things about world culture as well as African
+                cultures, engaging in discussion on social issues, religion, gender equality and feminism.
+            </p>
+            <hr/>
+        </div>
+        
+    </article>
+
+    <section class="contactMe" id="contactMe">
+        <div>
+            <p id="contactMe-heading">Contact Me!</p>
+        </div>
+        
+        <div class="socialMediaLinks">
+            <a href="https://twitter.com/Typical_elo"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.facebook.com/elo.agbawe1"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/elo-agbawe-77a231156/"><i class="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/Eloagbawe"><i class="fab fa-github fa-2x"></i></a>
+        </div>
+
+        <div>
+            <p id="contactMeText">You can send a message and I'll reply as soon as possible!</p>
+        </div>
+
+        <form id="contactForm">
+            <label for="name">Name</label><br>
+            <input type="text" id="name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email"><br>
+            <label for="subject">Subject</label><br>
+            <input type="text" id="subject"><br>
+            <label for="message">Message</label><br>
+            <textarea id="message"></textarea><br>
+            <button type="submit" id="sendMessage"><a href="">Send Message</a></button>
+        </form>
+        <p><a href="#nav">Back to Top</a></p>
+    </section>
+
+    <footer>
+        
+        <div>
+            <p>&copy;2020 Elo Agbawe</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
