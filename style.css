@@ -11,6 +11,7 @@ body{
 .nav{
     height: 2rem;
     margin-left: 60rem;
+    margin-top: 0.5rem;
 }
 .nav li{
     display: inline-block;
