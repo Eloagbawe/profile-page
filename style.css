@@ -13,6 +13,7 @@ body{
     margin-left: 60rem;
     margin-top: 0.5rem;
 }
+
 .nav li{
     display: inline-block;
     padding: 1rem 1rem;
@@ -146,4 +147,10 @@ footer{
 .contactMe > p > a{
     text-decoration: none;
     font-weight: 900;
+}
+
+@media only screen and (min-width: 1200px){
+    .nav{
+        margin-left: 65rem;
+    }
 }
