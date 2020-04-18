@@ -124,17 +124,17 @@ body{
 } 
 footer{
     margin-top: 0;
-    margin-left: 37rem;
+    margin-left: 40rem;
     padding:1rem 3rem;
 
 }
 
  #sendMessage{
-    height: 2rem;
+    height: 3rem;
     width: 21rem;
     margin:1rem 0 2rem 0;
     border: 0.01rem solid #CED4DA;
-    padding: 1rem 0 2rem 0;
+    padding: 1rem;
     font-weight: 900;
     font-size: 0.8rem;
 } 
