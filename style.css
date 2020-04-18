@@ -90,12 +90,13 @@ body{
 
 }
 #contactMeText{
-    padding: 1rem 0;
+    padding: 1rem  0 2rem 0;
 }
 
 #contactMe-heading{
     font-size: 1.4rem; 
     font-weight: 900;
+    padding-bottom: 1rem;
 }
 
 .socialMediaLinks{
