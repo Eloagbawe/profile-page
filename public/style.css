@@ -22,13 +22,12 @@ body{
 .bio-container{
     display: flex;
     flex-direction: row;
-    padding: 1.5rem 3rem 0 3rem;
+    padding: 0.5rem 3rem 0 3rem;
     width:100%;
-
 }
 .biodata{
     width:65%;
-
+    margin-top: 6rem;
 }
 #welcomeText{
     font-family: 'Satisfy', cursive;
@@ -45,12 +44,12 @@ body{
     margin-left: 2rem;
 }
 .biodata-text{
-    padding-top: 1.5em;
-    font-size: 0.9rem;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 900;
 }
 .biodata-text span{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-right: 1rem;
 }
 /* #picture{
@@ -83,6 +82,15 @@ body{
     font-size: 1.2rem;
     padding-bottom: 0.5rem;
     font-weight: 900;
+}
+
+.education-text{
+    font-size: 0.9rem;
+}
+.education-text span{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-right: 1rem;
 }
 #contactMe{
     padding: 1rem 3rem;
@@ -148,6 +156,18 @@ footer{
 .contactMe > p > a{
     text-decoration: none;
     font-weight: 900;
+}
+
+.sponsor-div {
+    padding-bottom: 1rem;
+}
+.sponsor-text {
+    display: inline;
+    margin-right: 1rem;
+}
+footer img{
+    width: 2rem;
+    height: 2rem;
 }
 
 @media only screen and (min-width: 1450px){
