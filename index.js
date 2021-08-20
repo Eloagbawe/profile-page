@@ -33,7 +33,7 @@ app.post('/submit-message', async function (req, res) {
     return res.status(400).send('something went wrong')
   })
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 
 
 
