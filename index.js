@@ -1,11 +1,19 @@
 require('dotenv').config()
 const express = require('express');
 const app = express();
+
+const cors = require('cors');
 const path = require('path');
 const Contact = require('./models/contact');
 const connectDB = require("./db");
 
 connectDB();
+
+app.use(express.urlencoded({
+    extended: true
+  }))
+app.use(express.json());
+app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')))
 app.post('/submit-message', async function (req, res) {
