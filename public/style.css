@@ -188,7 +188,6 @@ footer img{
         
     }
 
-    
     .biodata{
         margin-top: 1rem;
     }
@@ -213,10 +212,7 @@ footer img{
     #contactForm input{
        width: 15rem; 
        height: 1.5rem;
-       margin: 1rem 0;
-       border: 0.01rem solid #CED4DA;
        font-size: 0.8rem;
-       padding: 0.5rem;
    
    }
 
@@ -234,4 +230,41 @@ footer img{
         margin: 2rem 0 1rem 0;
     }
 
+}
+
+@media only screen and (max-width: 320px){
+    .nav{
+        margin-left: 0rem;
+        
+    }
+    .nav li{
+        padding: 1rem 0.5rem;
+    }
+
+    #picture img{
+        height: 13rem;
+        width: 10rem;
+       
+    }
+
+    .socialMediaLinks i{
+        padding-right: 0.5rem;
+    }
+
+    #contactForm input{
+        width: 10rem; 
+        height: 1.5rem;
+    }
+
+    #message{
+        width: 9rem;
+    }
+
+    #sendMessage{
+     width: 11rem;
+    } 
+
+ footer{
+    padding:1rem 1.5rem;
+    }
 }
