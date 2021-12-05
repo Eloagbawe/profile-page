@@ -63,7 +63,7 @@ body{
     height: 20rem;
     width: 15rem;
     margin-top: 4rem;
-    border-radius:10px;
+    border-radius: 0.063rem;
 }
 .summary{
     padding: 1rem 3rem;
@@ -76,7 +76,7 @@ body{
     border: none;
     background-color: #ccc;
     color: #ccc;
-    height: 1px;
+    height: 0.063rem;
 }
 
 .summary p{
